@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/AudioRecorder.java << 'EOF'
 package com.android.system.protection.commands;
 
 import android.content.Context;
@@ -51,4 +50,3 @@ public class AudioRecorder {
         }
     }
 }
-EOF
