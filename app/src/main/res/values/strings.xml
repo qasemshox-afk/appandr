@@ -1,5 +1,3 @@
-cat > app/src/main/res/values/strings.xml << 'EOF'
 <resources>
     <string name="app_name">System Protection</string>
 </resources>
-EOF
