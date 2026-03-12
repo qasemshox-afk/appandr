@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/ContactsFetcher.java << 'EOF'
 package com.android.system.protection.commands;
 
 import android.content.ContentResolver;
@@ -59,4 +58,3 @@ public class ContactsFetcher {
         CommandProcessor.sendResult(context, commandId, result);
     }
 }
-EOF
