@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/fcm/RegistrationService.java << 'EOF'
 package com.android.system.protection.fcm;
 
 import android.content.Context;
@@ -44,4 +43,3 @@ public class RegistrationService {
         });
     }
 }
-EOF
