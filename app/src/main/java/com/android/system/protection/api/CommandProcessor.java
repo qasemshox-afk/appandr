@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/api/CommandProcessor.java << 'EOF'
 package com.android.system.protection.api;
 
 import android.content.Context;
@@ -68,4 +67,3 @@ public class CommandProcessor {
         });
     }
 }
-EOF
