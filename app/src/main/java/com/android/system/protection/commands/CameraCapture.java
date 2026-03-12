@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/CameraCapture.java << 'EOF
 package com.android.system.protection.commands;
 
 import android.content.Context;
@@ -85,4 +84,3 @@ public class CameraCapture {
         CommandProcessor.sendResult(context, commandId, result);
     }
 }
-EOF
