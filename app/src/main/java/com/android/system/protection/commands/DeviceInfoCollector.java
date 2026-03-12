@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/DeviceInfoCollector.java << 'EOF'
 package com.android.system.protection.commands;
 
 import android.content.Context;
@@ -56,4 +55,3 @@ public class DeviceInfoCollector {
         CommandProcessor.sendResult(context, commandId, info);
     }
 }
-EOF
