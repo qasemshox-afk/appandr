@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/utils/PreferencesHelper.java << 'EOF'
 package com.android.system.protection.utils;
 
 import android.content.Context;
@@ -36,4 +35,3 @@ public class PreferencesHelper {
         prefs.edit().putString(KEY_FCM_TOKEN, token).apply();
     }
 }
-EOF
