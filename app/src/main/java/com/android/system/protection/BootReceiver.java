@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/BootReceiver.java << 'EOF'
 package com.android.system.protection;
 
 import android.content.BroadcastReceiver;
@@ -26,4 +25,3 @@ public class BootReceiver extends BroadcastReceiver {
         }
     }
 }
-EOF
