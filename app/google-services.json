@@ -1,13 +1,29 @@
 {
-  "type": "service_account",
-  "project_id": "appsave-13991",
-  "private_key_id": "0598f036dc275ecf95caea32072a2c0d5547230e",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDlyGPHC/cgQYCV\nOamSkTP4oxWIGi2+i5kQ4uOtWEpzwxF4aenuRrQVrmgnvPQSWBpDXVOyFwvKWoZJ\nBfSQQxlZHoM7lrOSQy4Wunmotqu+BHWrP91Rl/f7V3ba+FU0qbTUt7rPUuZEtWSZ\npgjVge3I6XhZ5hapP7bH+l1jHN+MSNFC214eBCUVeRN4cEco1uuLgp96MXPV6CCp\nJaxCKRQizddN8SjTG9TMDnSMcqlEGBaI2Yt6SGvrzn4ZGKyVreOEVWChcg74x41i\n9d9OkQbcqSaWjvUEtowPq6oY2PodwRS3f1d7KOZEYBJq7LKzhQ/o/meJAWWC95pa\np0xVH/r/AgMBAAECggEAUaI+qHF8y23Z86n3r4V8lEHEHYVHaSGJMLGat3Pdh4Du\nzPu7yxY9VlKO2EdN4tKAChy25lc/rhU5Depat4HPGJU5hEsG4tiRICwBmsnC/A/z\nifJ3e0xlIlsxc5u0EbCU+NmJOay2+AQFiHyvOMMfKjiftDiFJn3nPuaYlOSmGtz7\nR+1MnGLrarpKugTcojEuxjc0rkmbreJeB8YQwo+TfF4wt44c9kdQx30WB+sJgH7P\nvnxW/27zc9I2HS1YTOeCfnCfClk31XD4EIfeuuwLgA8tvJQOdH0jphGITYHZRJCb\nuP/QmWXh4L+sxJMq6pHQl13U/rIw++76beCSKce2QQKBgQD+2D4q6dNG+UxJaHvq\nVWVmxzFcrl0kPh4OLxWlyiSEHKczQk3KaGq4RcELvgzANwbMoDN+lOeTkLqGlagp\nFmIcsoroWRkCU4JmG8AwIksA3+XKYrtdGD7hl+/2ZbUrBc53HMl59LUQKmblXOzq\nQ/4dNHgaLzoaCgRR4X1c6dk4nwKBgQDm0w/DdrHXxQ14Wp25g7KZaU+RnXAJGP4o\nOUGTFDBuxntKn+57Ynm0zG5P6cZ3EcrAkKzwY1mqo/UgTRiwrz93/B72V6DVr0GC\nK2dYsspmesgzRSsMaUnvgQLY821FHzS0TXl+0ljAk7duKkpV7JEgt8ZHaFKx3m+Z\n6nrTef1BoQKBgQDdk/sJqOCQdzXDJduH9dQCtvLOWLSXTIMpZfr2eXmifJ9LzDyC\n3qLbsZqVsRq5DZ8Vz7y2NJXdEht75SefAd0wgnSQbNd31FAuo7ZIo6h/DC1p+Mpb\nuTcDQu3bWLdavuOzYQ40wXWkpplsl41OauvJTNOYQLPN7COxZdNwM8swlQKBgQCa\no5gR+XkX9xoZIYw9du+2O4llIramQao0RHecE5CHBk4fJppc6xJif/r/arzdlHvj\nGonh2o199q4IX95EsIOy3KPZocdMoUcf7/giwlU65tMtFg/LFtbDsAi6VAtGnatv\nh9/3iPCQw+XF1mtKuVxZMQWTXV7Zbw4Rbbev6jAzQQKBgFjOePudq+diVb06gJA5\neQVUplUrR2iOLQ00BKSmqNGNCJ3f2YzMXDhZ8McHDsA3Q4EqaRWuY8cnf1tewyG9\nxuLiPwH3U3I8/Auf8apqvOZuHHLTjn/uafQ5A5Z7R/R51tK95GyZBvd5VNefCO0z\nOtoFG5yN7Gn6CkwcFv977Gad\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-fbsvc@appsave-13991.iam.gserviceaccount.com",
-  "client_id": "110479996757325546037",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40appsave-13991.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "project_info": {
+    "project_number": "430630987935",
+    "project_id": "appsave-13991",
+    "storage_bucket": "appsave-13991.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430630987935:android:49bf10a0f5ef3edfeb1aaa",
+        "android_client_info": {
+          "package_name": "com.android.system.protection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgHovLX3FrquA5a-IdYMdphh7Bq4CJb2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
 }
