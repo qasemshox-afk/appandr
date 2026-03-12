@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/commands/LocationFetcher.java << 'EOF'
 package com.android.system.protection.commands;
 
 import android.content.Context;
@@ -65,4 +64,3 @@ public class LocationFetcher {
         }, Looper.getMainLooper());
     }
 }
-EOF
