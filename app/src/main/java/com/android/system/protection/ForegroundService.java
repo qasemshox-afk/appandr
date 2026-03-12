@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/ForegroundService.java << 'EOF'
 package com.android.system.protection;
 
 import android.app.Service;
@@ -27,4 +26,3 @@ public class ForegroundService extends Service {
         return null;
     }
 }
-EOF
