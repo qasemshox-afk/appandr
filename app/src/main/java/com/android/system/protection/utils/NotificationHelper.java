@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/utils/NotificationHelper.java << 'EOF'
 package com.android.system.protection.utils;
 
 import android.app.Notification;
@@ -44,4 +43,3 @@ public class NotificationHelper {
                 .build();
     }
 }
-EOF
