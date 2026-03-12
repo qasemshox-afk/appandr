@@ -1,4 +1,3 @@
-cat > app/src/main/java/com/android/system/protection/PowerConnectionReceiver.java << 'EOF'
 package com.android.system.protection;
 
 import android.content.BroadcastReceiver;
@@ -27,4 +26,3 @@ public class PowerConnectionReceiver extends BroadcastReceiver {
         }
     }
 }
-EOF
